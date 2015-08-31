@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;	
+	background-color: grey;
+	margin:0;
+}
+
+body {
+	width:28em;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1em;
+	padding-bottom:1em;
+	background-color: #edefda;
+	font-family:"Helvetica", Helvetica, sans-serif;	
+}
+
+header {
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #edefda;
+	width:28em;
+	height:288px;
+	background-image:url(images/header_mobile.png);
+}
+
+#photo {
+	display:none;
+}
+
+
+main {
+	display:none;
+	margin-top:1em;
+	margin-bottom:1em;
+	width:28em;
+	margin-left:0em;
+	margin-right:0em;
+	height:4900px;
+	background-color: grey;
+	background-image:url(images/main_mobile.png)
+
+}
+
+main h1 {
+	display:none;
+}
+
+
+section {
+	background-color:white;
+	visibility:hidden;
+}
+
+
+section a {
+	color:white;
+	text-decoration:none;
+	background-color:#333333;
+}
+
+section a:hover {
+	color:#009966;
+	background-color:#333333;
+}
+
+
+#email,#site,#ville {
+	display:block;
+	visibility:visible;
+	background-color:#333333;	
+	position:relative;
+	top:140px;
+	right:1em;
+	width:17em;	
+	color:white;
+	font-size:18px;
+	line-height:2em;
+}
+
+footer {	
+	width:28em;
+	height:151px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #edefda;
+	background-image:url(images/footer_mobile.png);
+}
